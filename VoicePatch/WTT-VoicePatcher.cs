@@ -11,12 +11,12 @@ using Newtonsoft.Json;
 namespace WTT_VoicePatcher
 {
 
-    public class WTT_VoicePatcher : ModulePatch
+    public class WTTVoicePatcher : ModulePatch
     {
 
-        public WTT_VoicePatcher()
+        public WTTVoicePatcher()
         {
-            WTT_VoicePatcher._targetType = Enumerable.Single<Type>(PatchConstants.EftTypes, new Func<Type, bool>(this.IsTargetType));
+            WTTVoicePatcher._targetType = Enumerable.Single<Type>(PatchConstants.EftTypes, new Func<Type, bool>(this.IsTargetType));
         }
 
 
@@ -28,7 +28,7 @@ namespace WTT_VoicePatcher
 
         protected override MethodBase GetTargetMethod()
         {
-            return WTT_VoicePatcher._targetType.GetMethod("TakePhrasePath");
+            return WTTVoicePatcher._targetType.GetMethod("TakePhrasePath");
         }
 
 
@@ -55,7 +55,7 @@ namespace WTT_VoicePatcher
             {
                 string text = File.ReadAllText(jsonFile);
                 Dictionary<string, string> dictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(text);
-                Dictionary<string, string> value = Traverse.Create(WTT_VoicePatcher._targetType).Field<Dictionary<string, string>>("dictionary_0").Value;
+                Dictionary<string, string> value = Traverse.Create(WTTVoicePatcher._targetType).Field<Dictionary<string, string>>("dictionary_0").Value;
 
                 foreach (string key in dictionary.Keys)
                 {

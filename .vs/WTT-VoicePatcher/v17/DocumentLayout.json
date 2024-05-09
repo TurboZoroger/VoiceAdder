@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|q:\\spt_380\\spt_client_mods\\wtt-voicepatcher\\voicepatch\\wtt_voicepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|solutionrelative:voicepatch\\wtt_voicepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|q:\\spt_380\\spt_client_mods\\wtt-voicepatcher\\voicepatch\\wtt_voicepatcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|solutionrelative:voicepatch\\wtt_voicepatcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTTVoicePatcher.csproj|q:\\spt_380\\spt_client_mods\\wtt-voicepatcher\\voicepatch\\wttvoicepatcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTTVoicePatcher.csproj|solutionrelative:voicepatch\\wttvoicepatcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|q:\\spt_380\\spt_client_mods\\wtt-voicepatcher\\voicepatch\\wtt-voiceadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTT_VoicePatcher.csproj|solutionrelative:voicepatch\\wtt-voiceadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTTVoicePatcher.csproj|q:\\spt_380\\spt_client_mods\\wtt-voicepatcher\\voicepatch\\wtt-voicepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A246BF44-46E9-4AA9-9D6C-8DD52D35C90D}|VoicePatch\\WTTVoicePatcher.csproj|solutionrelative:voicepatch\\wtt-voicepatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WTT-VoiceAdd.cs",
               "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT-VoiceAdd.cs",
               "RelativeDocumentMoniker": "VoicePatch\\WTT-VoiceAdd.cs",
               "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT-VoiceAdd.cs",
               "RelativeToolTip": "VoicePatch\\WTT-VoiceAdd.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:43:02.984Z"
+              "WhenOpened": "2024-04-24T20:43:02.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WTT_VoicePatcher.cs",
-              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT_VoicePatcher.cs",
-              "RelativeDocumentMoniker": "VoicePatch\\WTT_VoicePatcher.cs",
-              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT_VoicePatcher.cs",
-              "RelativeToolTip": "VoicePatch\\WTT_VoicePatcher.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowBAAAAAhAAAA",
+              "DocumentIndex": 2,
+              "Title": "WTT-VoicePatcher.cs",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT-VoicePatcher.cs",
+              "RelativeDocumentMoniker": "VoicePatch\\WTT-VoicePatcher.cs",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT-VoicePatcher.cs",
+              "RelativeToolTip": "VoicePatch\\WTT-VoicePatcher.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswD8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T19:42:33.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WTT_VoicePatcher.csproj",
-              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT_VoicePatcher.csproj",
-              "RelativeDocumentMoniker": "VoicePatch\\WTT_VoicePatcher.csproj",
-              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTT_VoicePatcher.csproj",
-              "RelativeToolTip": "VoicePatch\\WTT_VoicePatcher.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "DocumentMoniker": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTTVoicePatcher.csproj",
+              "RelativeDocumentMoniker": "VoicePatch\\WTTVoicePatcher.csproj",
+              "ToolTip": "Q:\\SPT_380\\SPT_Client_Mods\\WTT-VoicePatcher\\VoicePatch\\WTTVoicePatcher.csproj",
+              "RelativeToolTip": "VoicePatch\\WTTVoicePatcher.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-24T19:17:58.254Z"
+              "WhenOpened": "2024-04-24T19:17:58.254Z",
+              "EditorCaption": ""
             }
           ]
         }

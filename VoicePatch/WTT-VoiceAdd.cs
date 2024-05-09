@@ -6,11 +6,11 @@ namespace WTT_VoicePatcher
 {
 
     [BepInPlugin("com.grooveypenguinx.basedonCWXVoiceAdder.cheechandchongvoiceadder", "CheechAndChong Adder", "0.6.9")]
-    public class WTT_VoiceAdd : BaseUnityPlugin
+    public class WTTVoiceAdd : BaseUnityPlugin
     {
         private void Start()
         {
-            new WTT_VoicePatcher().Enable();
+            new WTTVoicePatcher().Enable();
         }
     }
 }
